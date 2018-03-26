@@ -1,0 +1,278 @@
+{
+    "info": {
+        "title": "Updating experiment names in data request"
+    }, 
+    "maps": {
+        "AMIP20C": "amip-hist", 
+        "Coupled": "hist-1950", 
+        "DCPP-C12": "dcppC-amv-pos", 
+        "DCPP-C13": "dcppC-amv-neg", 
+        "DCPP-C14": "dcppC-pac-control", 
+        "DCPP-C15": "dcppC-ipv-pos", 
+        "DCPP-C16": "dcppC-ipv-neg", 
+        "G1ext": "G1", 
+        "G1extSlice1": "piSST-4xCO2-solar", 
+        "G1extSlice2": "futureSST-4xCO2-solar", 
+        "G6Slice1": "G6SST1", 
+        "G6solarSlice2": "G6SST2-solar", 
+        "G6sulfate": "G6sulfur", 
+        "G6sulfurSlice2": "G6SST2-sulfur", 
+        "G7cirrusSlice1": "G7SST1-cirrus", 
+        "G7cirrusSlice2": "G7SST2-cirrus", 
+        "HIST-AMO": "hist-resAMO", 
+        "HIST-IPO": "hist-resIPO", 
+        "LFMIP-PobsSST": "amip-lfmip-pObs", 
+        "LFMIP-pdLC": "lfmip-pdLC", 
+        "LFMIP-pdLCSST": "amip-lfmip-pdLC", 
+        "LFMIP-rmLC": "lfmip-rmLC", 
+        "LFMIP-rmLCSST": "amip-lfmip-rmLC", 
+        "LIG": "lig127k", 
+        "Land-Future": "land-future", 
+        "Land-Hist": "land-hist", 
+        "Land-Hist-cruNcep": "land-hist-cruNcep", 
+        "Land-Hist-princeton": "land-hist-princeton", 
+        "Land-Hist-wfdei": "land-hist-wfdei", 
+        "PlioExp": "midPliocene-eoi400", 
+        "RFMIP-ERF-4xCO2": "piClim-4xCO2", 
+        "RFMIP-ERF-Aer": "piClim-aer", 
+        "RFMIP-ERF-Anthro": "piClim-anthro", 
+        "RFMIP-ERF-GHG": "piClim-ghg", 
+        "RFMIP-ERF-HistAer": "piClim-histaer", 
+        "RFMIP-ERF-HistAll": "piClim-histall", 
+        "RFMIP-ERF-HistGHG": "piClim-histghg", 
+        "RFMIP-ERF-HistNat": "piClim-histnat", 
+        "RFMIP-ERF-LU": "piClim-lu", 
+        "RFMIP-ERF-PI-Control": "piClim-control", 
+        "RFMIP-IRF-GHG": "rad-irf", 
+        "RFMIP-SpAer-ERF-aer": "piClim-spAer-aer", 
+        "RFMIP-SpAer-ERF-anthro": "piClim-spAer-anthro", 
+        "RFMIP-SpAer-ERF-histaer": "piClim-spAer-histaer", 
+        "RFMIP-SpAer-ERF-histall": "piClim-spAer-histall", 
+        "RFMIP-SpAer-aer": "hist-spAer-aer", 
+        "RFMIP-SpAer-all": "hist-spAer-all", 
+        "SSP1-26wSSP3-7landuse": "ssp126-ssp370Lu", 
+        "SSP126": "ssp126", 
+        "SSP245": "ssp245", 
+        "SSP3-7wSSP1-26landuse-01": "ssp370-ssp126Lu", 
+        "SSP370": "ssp370", 
+        "SSP585": "ssp585", 
+        "SSPXY": "sspxy", 
+        "abrupt0-5xCO2": "abrupt-0p5xCO2", 
+        "abrupt2xCO2": "abrupt-2xCO2", 
+        "abruptSm4": "abrupt-solm4p", 
+        "abruptSp4": "abrupt-solp4p", 
+        "allFAF": "faf-all", 
+        "amip-p4k-lwoff": "amip-p4K-lwoff", 
+        "amip4K": "amip-p4K", 
+        "amip4xCO2": "amip-4xCO2", 
+        "amipFuture": "amip-future4K", 
+        "amipFuture-4xCO2-all": "amip-a4SST-4xCO2", 
+        "amipMinus4K": "amip-m4K", 
+        "amipPiForcing": "amip-piForcing", 
+        "aqua4K": "aqua-p4K", 
+        "aqua4xCO2": "aqua-4xCO2", 
+        "aquaControl": "aqua-control", 
+        "dcppA-historical": "historical", 
+        "dcppC-amv-extrop-minus": "dcppC-amv-ExTrop-neg", 
+        "dcppC-amv-extrop-plus": "dcppC-amv-ExTrop-pos", 
+        "dcppC-amv-minus": "dcppC-amv-neg", 
+        "dcppC-amv-plus": "dcppC-amv-pos", 
+        "dcppC-amv-trop-minus": "dcppC-amv-Trop-neg", 
+        "dcppC-amv-trop-plus": "dcppC-amv-Trop-pos", 
+        "dcppC-ipv-minus": "dcppC-ipv-neg", 
+        "dcppC-ipv-nextrop-minus": "dcppC-ipv-NexTrop-neg", 
+        "dcppC-ipv-nextrop-plus": "dcppC-ipv-NexTrop-pos", 
+        "dcppC-ipv-plus": "dcppC-ipv-pos", 
+        "dcppC-pac": "dcppC-pac-control", 
+        "esm1pcbgc": "1pctCO2-bgc", 
+        "esm1pcbgcNdep": "1pctCO2Ndep", 
+        "esm1pcrad": "1pctCO2-rad", 
+        "esmSSP5-85wSSP1-26landuse": "esm-ssp585-ssp126Lu", 
+        "esmhistbgc": "hist-bgc", 
+        "esmssp5-34-over-bgc": "ssp534-over-bgc", 
+        "esmssp5-85": "esm-ssp585", 
+        "esmssp5-85bgc": "ssp585-bgc", 
+        "futureSST": "a4SST", 
+        "futureSST-4xCO2-all": "a4SSTice-4xCO2", 
+        "futureSSTice": "a4SSTice", 
+        "heatFAF": "faf-heat", 
+        "idealized-global-deforest": "deforest-globe", 
+        "land-noShiftcultivate": "land-noShiftCultivate", 
+        "offlwamip": "amip-lwoff", 
+        "offlwamip4K": "amip-p4K-lwoff", 
+        "offlwaqua4K": "aqua-p4K-lwoff", 
+        "offlwaquaControl": "aqua-control-lwoff", 
+        "passiveheat": "faf-passiveheat", 
+        "piSST-4xCO2-all": "piSST-4xCO2", 
+        "slab-control": "control-slab", 
+        "sspXY": "sspxy", 
+        "stressFAF": "faf-stress", 
+        "volc-pinatubo-ini": "dcppC-forecast-addPinatubo", 
+        "waterFAF": "faf-water",
+        "DHLD": "amip-hld", 
+        "DTIP": "amip-TIP", 
+        "DTIP-DSH": "amip-TIP-nosh", 
+        "Forced-Atmos-Land": "highresSST-present", 
+        "LFMIP-Pobs": "lfmip-initLC", 
+        "SSP126over": "ssp534-over", 
+        "SSP160": "ssp460", 
+        "SSP437": "ssp434", 
+        "amip-p4k-lwoff": "amip-p4K-lwoff", 
+        "dcppC-amv-extrop-minus": "dcppC-amv-ExTrop-neg", 
+        "dcppC-amv-extrop-plus": "dcppC-amv-ExTrop-pos", 
+        "dcppC-amv-minus": "dcppC-amv-neg", 
+        "dcppC-amv-plus": "dcppC-amv-pos", 
+        "dcppC-amv-trop-minus": "dcppC-amv-Trop-neg", 
+        "dcppC-amv-trop-plus": "dcppC-amv-Trop-pos", 
+        "dcppC-ipv-minus": "dcppC-ipv-neg", 
+        "dcppC-ipv-plus": "dcppC-ipv-pos", 
+        "dcppC-pac": "dcppC-pac-control", 
+        "esm1pccouNdep": "1pctCO2Ndep-bgc", 
+        "hist-noLULCC-02": "hist-noLu", 
+        "land-noShiftcultivate": "land-noShiftCultivate"
+    }, 
+    "multi": {
+        "Forced-Atmos-Land-2050": [
+            [
+                "highresSST-4xCO2", 
+                "6532c230-4cfe-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "highresSST-LAI", 
+                "6532c56e-4cfe-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "highresSST-future", 
+                "6532c6cc-4cfe-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "highresSST-p4K", 
+                "6532c802-4cfe-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "highresSST-smoothed", 
+                "6532c92e-4cfe-11e7-903f-5404a60d96b5"
+            ]
+        ], 
+        "LFMIP-pdLC2": [
+            [
+                "lfmip-pdLC-princeton", 
+                "623a9780-4cfc-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "lfmip-pdLC-cruNcep", 
+                "623a9b2c-4cfc-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "lfmip-pdLC-wfdei", 
+                "623a9cf8-4cfc-11e7-903f-5404a60d96b5"
+            ]
+        ], 
+        "LFMIP-rmLC2": [
+            [
+                "lfmip-rmLC-cruNcep", 
+                "7d84d87a-4cfc-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "lfmip-rmLC-princeton", 
+                "7d84dbae-4cfc-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "lfmip-rmLC-wfdei", 
+                "7d84dd02-4cfc-11e7-903f-5404a60d96b5"
+            ]
+        ], 
+        "OMIP-A": [
+            [
+                "omip1", 
+                "fed778d4-4d00-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "omip1-spunup", 
+                "fed77bc2-4d00-11e7-903f-5404a60d96b5"
+            ]
+        ], 
+        "OMIP-B": [
+            [
+                "omip2", 
+                "fe6e64fc-4d00-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "omip2-spunup", 
+                "fe6e67f4-4d00-11e7-903f-5404a60d96b5"
+            ]
+        ], 
+        "hist-1950": [
+            [
+                "control-1950", 
+                "6131b7d0-4cff-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "spinup-1950", 
+                "6131ba78-4cff-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "hist-1950", 
+                "6131bbe0-4cff-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "highres-future", 
+                "6131bd34-4cff-11e7-903f-5404a60d96b5"
+            ]
+        ], 
+        "landcover-manage-LND": [
+            [
+                "land-cCO2", 
+                "6e27086e-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-cClim", 
+                "6e2709b8-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-crop-grass", 
+                "6e270aee-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-crop-noFert", 
+                "6e270c1a-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-crop-noIrrig", 
+                "6e270d5a-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-crop-noIrrigFert", 
+                "6e270e7c-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-hist-altLu1", 
+                "6e270fa8-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-hist-altLu2", 
+                "6e2710d4-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-hist-altStartYear", 
+                "6e271200-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-noFire", 
+                "6e27132c-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-noPasture", 
+                "6e27146c-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-noShiftCultivate", 
+                "6e271598-4c5a-11e7-903f-5404a60d96b5"
+            ], 
+            [
+                "land-noWoodHarv", 
+                "6e2716ce-4c5a-11e7-903f-5404a60d96b5"
+            ]
+        ]
+    }
+}
